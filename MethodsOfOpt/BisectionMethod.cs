@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using info.lundin.math;
 
-namespace testing_project
+namespace MethodsOfOpt
 {
     static class BisectionMethod
     {

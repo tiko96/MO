@@ -5,11 +5,11 @@ using System.Globalization;
 
 namespace MethodsOfOpt
 {
-    public partial class BisectionForm : Form
+    public partial class SecantForm : Form
     {
 
 
-        public BisectionForm()
+        public SecantForm()
         {
             InitializeComponent();
 
@@ -48,19 +48,19 @@ namespace MethodsOfOpt
 
                         progressBar1.Visible = true;
                         progressBar1.Maximum = iter + 1;
-                        BisectionMethod.iterations = 0;
-                        BisectionMethod.function = functionTextBox.Text;
-                        result = BisectionMethod.BisectionCount(left, right, toler, progressBar1, iter, time);
-                        y = Math.Round(BisectionMethod.funcResult, 28);
-                        toler2 = (BisectionMethod.endRight - BisectionMethod.endLeft);
-                        iter = BisectionMethod.iterations;
-                        elTime = BisectionMethod.elapsedTime;
+                        SecantMethod.iterations = 0;
+                        SecantMethod.function = functionTextBox.Text;
+                        result = SecantMethod.SecantCount(left, right, toler, progressBar1, iter, time);
+                        y = Math.Round(SecantMethod.funcResult, 28);
+                        toler2 = (SecantMethod.endRight - SecantMethod.endLeft);
+                        iter = SecantMethod.iterations;
+                        elTime = SecantMethod.elapsedTime;
                         resultTextBox.Text = result.ToString();
                         functionResultTextBox.Text = y.ToString();
                         toler2TextBox.Text = toler2.ToString("0e0");
                         iterationsTextBox.Text = iter.ToString();
                         elapsedTimeTextBox.Text = elTime.ToString();
-                        if (toler2 != toler)
+                        if (toler2 > toler)
                         {
                             label13.Text = "Результат с заданной точностью не достигнут!";
                         }
@@ -77,7 +77,7 @@ namespace MethodsOfOpt
                     }
                     catch (ParserException ex)
                     {
-                        BisectionMethod.tm.Stop();
+                        SecantMethod.tm.Stop();
                         MessageBox.Show("Неверно введена функция!");
                         progressBar1.Visible = false;
                     }

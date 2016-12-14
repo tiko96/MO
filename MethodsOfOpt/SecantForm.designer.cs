@@ -1,6 +1,6 @@
 ﻿namespace MethodsOfOpt
 {
-    partial class BisectionForm
+    partial class SecantForm
     {
         /// <summary>
         /// Требуется переменная конструктора.
@@ -145,18 +145,18 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(38, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 13);
+            this.label2.Size = new System.Drawing.Size(18, 13);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Left";
+            this.label2.Text = "x0";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(38, 98);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.Size = new System.Drawing.Size(18, 13);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Right";
+            this.label3.Text = "x1";
             // 
             // label4
             // 
@@ -197,11 +197,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(31, 408);
+            this.label9.Location = new System.Drawing.Point(10, 408);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 13);
+            this.label9.Size = new System.Drawing.Size(78, 13);
             this.label9.TabIndex = 18;
-            this.label9.Text = "Abs(b-a)";
+            this.label9.Text = "Abs(Xn — Xn-1)";
             // 
             // label10
             // 
@@ -279,7 +279,7 @@
             // elapsedTimeTextBox
             // 
             this.elapsedTimeTextBox.Location = new System.Drawing.Point(93, 480);
-            this.elapsedTimeTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.elapsedTimeTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.elapsedTimeTextBox.Name = "elapsedTimeTextBox";
             this.elapsedTimeTextBox.ReadOnly = true;
             this.elapsedTimeTextBox.Size = new System.Drawing.Size(262, 20);
@@ -327,7 +327,7 @@
             this.Controls.Add(this.leftTextBox);
             this.Controls.Add(this.functionTextBox);
             this.Name = "Form1";
-            this.Text = "Bisection Method";
+            this.Text = "Secant Method";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
