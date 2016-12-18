@@ -1,1 +1,11 @@
 D:\Projects\MethodsOfOpt\MO\bin\Debug\MO.exe.config
+D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.csprojResolveAssemblyReference.cache
+D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.BisectionForm.resources
+D:\Projects\MethodsOfOpt\MO\obj\Debug\MethodsOfOpt.Form1.resources
+D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.Properties.Resources.resources
+D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.csproj.GenerateResource.Cache
+D:\Projects\MethodsOfOpt\MO\bin\Debug\MO.exe
+D:\Projects\MethodsOfOpt\MO\bin\Debug\MO.pdb
+D:\Projects\MethodsOfOpt\MO\bin\Debug\info.lundin.math.dll
+D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.exe
+D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.pdb

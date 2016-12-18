@@ -8,13 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MO
+namespace MethodsOfOpt
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BisectionForm form = new BisectionForm();
+            form.Owner = this;
+            form.Show();
         }
     }
 }
