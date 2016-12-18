@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using info.lundin.math;
 
 namespace MethodsOfOpt
 {
@@ -14,7 +15,13 @@ namespace MethodsOfOpt
         static public int maxTime;
         static public int elapsedTime;
         static public System.Timers.Timer tm;
-        
+
+        static public double F(double par)
+        {
+            ExpressionParser parser = new ExpressionParser();
+            parser.Values.Add("x", par);
+            return parser.Parse(function);
+        }
 
     }
 }
