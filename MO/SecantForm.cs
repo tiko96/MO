@@ -106,12 +106,74 @@ namespace MethodsOfOpt
 
         private void leftTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+            if ((e.KeyChar >= '0') && (e.KeyChar <= '9'))
+            {
+                return;
+            }
+            if (e.KeyChar == '.')
+            {
+                e.KeyChar = ',';
+            }
+
+            if (e.KeyChar == ',')
+            {
+                if (leftTextBox.Text.IndexOf(',') != -1)
+                {
+                    e.Handled = true;
+                }
+                return;
+            }
+
+            if (e.KeyChar == '-')
+            {
+                if (leftTextBox.Text.IndexOf('-') != -1)
+                {
+                    e.Handled = true;
+                }
+                return;
+            }
+
+            if (Char.IsControl(e.KeyChar))
+            {
+                return;
+            }
+
+            e.Handled = true;
         }
 
         private void rightTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+            if ((e.KeyChar >= '0') && (e.KeyChar <= '9'))
+            {
+                return;
+            }
+            if (e.KeyChar == '.')
+            {
+                e.KeyChar = ',';
+            }
+
+            if (e.KeyChar == ',')
+            {
+                if (rightTextBox.Text.IndexOf(',') != -1)
+                {
+                    e.Handled = true;
+                }
+                return;
+            }
+            if (e.KeyChar == '-')
+            {
+                if (rightTextBox.Text.IndexOf('-') != -1)
+                {
+                    e.Handled = true;
+                }
+                return;
+            }
+            if (Char.IsControl(e.KeyChar))
+            {
+                return;
+            }
+
+            e.Handled = true;
         }
 
         private void maxTolTextBox_KeyPress(object sender, KeyPressEventArgs e)
