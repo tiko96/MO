@@ -178,17 +178,77 @@ namespace MethodsOfOpt
 
         private void maxTolTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+            if ((e.KeyChar >= '0') && (e.KeyChar <= '9'))
+            {
+                return;
+            }
+            if (e.KeyChar == '.')
+            {
+                e.KeyChar = ',';
+            }
+
+            if (e.KeyChar == ',')
+            {
+                if (maxIterTextBox.Text.IndexOf(',') != -1)
+                {
+                    e.Handled = true;
+                }
+                return;
+            }
+
+            if (Char.IsControl(e.KeyChar))
+            {
+                return;
+            }
+
+            e.Handled = true;
         }
 
         private void tolerTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+            if ((e.KeyChar >= '0') && (e.KeyChar <= '9'))
+            {
+                return;
+            }
+            if (e.KeyChar == 'e')
+            {
+                return;
+            }
+            if (e.KeyChar == '.')
+            {
+                e.KeyChar = ',';
+            }
+
+            if (e.KeyChar == ',')
+            {
+                if (maxIterTextBox.Text.IndexOf(',') != -1)
+                {
+                    e.Handled = true;
+                }
+                return;
+            }
+
+            if (Char.IsControl(e.KeyChar))
+            {
+                return;
+            }
+
+            e.Handled = true;
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-           
+            if ((e.KeyChar >= '0') && (e.KeyChar <= '9'))
+            {
+                return;
+            }
+
+            if (Char.IsControl(e.KeyChar))
+            {
+                return;
+            }
+
+            e.Handled = true;
         }
     }
 }
