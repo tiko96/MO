@@ -9,3 +9,6 @@ D:\Projects\MethodsOfOpt\MO\bin\Debug\MO.pdb
 D:\Projects\MethodsOfOpt\MO\bin\Debug\info.lundin.math.dll
 D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.exe
 D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.pdb
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\bin\Debug\MO.exe.config
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MO.exe
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MO.pdb
