@@ -23,5 +23,12 @@ namespace MethodsOfOpt
             form.Owner = this;
             form.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SecantForm form = new SecantForm();
+            form.Owner = this;
+            form.Show();
+        }
     }
 }

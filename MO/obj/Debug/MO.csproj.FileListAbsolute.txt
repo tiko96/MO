@@ -12,3 +12,12 @@ D:\Projects\MethodsOfOpt\MO\obj\Debug\MO.pdb
 C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\bin\Debug\MO.exe.config
 C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MO.exe
 C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MO.pdb
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\bin\Debug\MO.exe
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\bin\Debug\MO.pdb
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\bin\Debug\info.lundin.math.dll
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MO.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MO.BisectionForm.resources
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MethodsOfOpt.Form1.resources
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MO.Properties.Resources.resources
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MethodsOfOpt.SecantForm.resources
+C:\Users\USER\Desktop\учеба\4 КУРС\gitProject\MO\obj\Debug\MO.csproj.GenerateResource.Cache
