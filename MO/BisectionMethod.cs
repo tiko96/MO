@@ -23,6 +23,7 @@ namespace MethodsOfOpt
             maxTime = time;
             tm = new System.Timers.Timer(15);
             tm.AutoReset = true;
+            tm.Elapsed += Tm_Elapsed;
             tm.Start();
 
             pb.Value = 1;
@@ -93,6 +94,13 @@ namespace MethodsOfOpt
                 timerValue = 0;
             }
             return left;
+        }
+
+        private static void Tm_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            timerValue++;
+            timerValue += 14;
+            elapsedTime = timerValue;
         }
 
         static public double F(double par)
