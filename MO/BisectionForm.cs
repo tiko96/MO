@@ -86,5 +86,17 @@ namespace MethodsOfOpt
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            resultTextBox.Text = "";
+            functionResultTextBox.Text = "";
+            toler2TextBox.Text = "";
+            iterationsTextBox.Text = "";
+            progressBar1.Value = 0;
+            elapsedTimeTextBox.Text = "";
+            label13.Text = "";
+        }
+
     }
 }
